@@ -8,6 +8,7 @@ export function selectFiles(option: HTMLInputElement) {
     const input = document.createElement("input");
     input.type = "file";
     for (const key in option) {
+      // @ts-ignore
       input[key] = option[key];
     }
     input.addEventListener("change", () => {

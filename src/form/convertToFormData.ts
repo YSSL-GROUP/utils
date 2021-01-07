@@ -3,10 +3,10 @@
  * @param obj - 对象
  * @returns FormData对象
  */
-export const createFormData = (obj: { [p in string]: any } = {}) => {
+export default function createFormData(obj: { [p in string]: any } = {}) {
   const formData = new FormData();
   for (const key in obj) {
     formData.append(key, obj[key]);
   }
   return formData;
-};
+}
