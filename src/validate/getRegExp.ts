@@ -33,5 +33,5 @@ export type RegExpType = keyof typeof RegExp;
  * @returns 指定正则表达式或所有正则表达式集合
  */
 export default function getRegExp(type?: RegExpType) {
-  return type ? RegExp : RegExp[type];
+  return type ? RegExp[type] : RegExp;
 }
