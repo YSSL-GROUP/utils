@@ -1,0 +1,7 @@
+src/.umi/**/*
+dist/**/*
+
+# Mac
+.DS_Store
+
+yarn-error.log
