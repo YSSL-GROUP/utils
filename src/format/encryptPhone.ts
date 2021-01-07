@@ -1,7 +1,11 @@
 /**
  * 手机号加密
  * @param phone - 手机号
- * @returns 手机加密后的值 eg: 111***1111
+ * @returns 手机号加密后的值
+ * @example
+ * ```ts
+ * encryptPhone(15536435235) // -> 155****5235
+ * ```
  */
 export default function encryptPhone(phone: string | number | null) {
   if (!phone) return "";
