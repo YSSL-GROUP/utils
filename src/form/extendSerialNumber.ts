@@ -7,7 +7,6 @@
  */
 export function extendSerialNumber<T>(page: number, pageSize: number, list: T[]) {
   return list.map((item, idx) => {
-    item["$serialNumber"] = idx + 1 + (page - 1) * pageSize;
-    return item;
+    return { ...item, $serialNumber: idx + 1 + (page - 1) * pageSize };
   });
 }
