@@ -1,4 +1,23 @@
 {
+  "name": "rs-utils",
+  "description": "utils",
+  "keywords": ["utils"],
+  "sideEffects": false,
+  "version": "0.1.0-beta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HanZhaorz/rs-libs"
+  },
+  "module": "es/index.js",
+  "main": "src/index",
+  "unpkg": "dist/rs-utils.min.js",
+  "jsdelivr": "dist/rs-utils.min.js",
+  "files": [
+    "es",
+    "src",
+    "dist"
+  ],
   "scripts": {
     "lint": "eslint -f unix \"src/**/*.{ts,tsx}\""
   },
