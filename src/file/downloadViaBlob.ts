@@ -1,5 +1,5 @@
 /**
- * 通过二进制下载文件
+ * 通过二进制数据下载文件
  * @param blob - 二进制数据
  * @param response - 如果传入 1.请求响应体 - 获取 response.headers['content-disposition'] 的值并计算文件名 2. 字符串 - 直接作为文件名
  * @returns
