@@ -27,10 +27,5 @@ export default {
       file: "./dist/rs-utils.mjs",
       format: "es",
     },
-    {
-      file: "./dist/rs-utils.min.mjs",
-      format: "es",
-      plugins: [uglify()],
-    },
   ],
 };
