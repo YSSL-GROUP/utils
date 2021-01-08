@@ -17,9 +17,7 @@
     "dist"
   ],
   "scripts": {
-    "build:es": "rollup -c -o dist/rs-utils.mjs",
-    "build:umd": "rollup -c -o umd/rs-utils.umd.js",
-    "build": "npm run build:es && npm run build:umd",
+    "build": "rollup -c",
     "lint": "eslint -f unix \"src/**/*.{ts,tsx}\""
   },
   "devDependencies": {
@@ -27,6 +25,7 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-typescript": "^7.12.7",
     "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-node-resolve": "^11.0.1",
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
     "cross-env": "^7.0.3",
@@ -36,6 +35,7 @@
     "eslint-plugin-tsdoc": "^0.2.10",
     "prettier": "^2.2.1",
     "rollup": "^2.36.1",
+    "rollup-plugin-uglify": "^6.0.4",
     "typescript": "^4.1.3"
   }
 }
