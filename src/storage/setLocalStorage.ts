@@ -3,7 +3,7 @@
  * @param key - key
  * @returns
  */
-export function setLocalStorage<T>(key: string, value: T) {
+export default function setLocalStorage<T>(key: string, value: T) {
   const data = JSON.stringify(value);
   localStorage.setItem(key, data);
 }

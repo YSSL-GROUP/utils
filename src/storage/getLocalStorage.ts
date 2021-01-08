@@ -3,7 +3,7 @@
  * @param key - key
  * @returns 经JSON.parse转换后的值
  */
-export function getLocalStorage<T>(key: string) {
+export default function getLocalStorage<T>(key: string) {
   const str = localStorage.getItem(key);
   return str ? (JSON.parse(str) as T) : null;
 }

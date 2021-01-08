@@ -3,7 +3,7 @@
  * @param option - input标签属性配置项
  * @returns 选择的文件集合
  */
-export function selectFiles(option: HTMLInputElement) {
+export default function selectFiles(option: HTMLInputElement) {
   return new Promise<HTMLInputElement["files"]>((resolve, reject) => {
     const input = document.createElement("input");
     input.type = "file";

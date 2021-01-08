@@ -4,7 +4,7 @@
  * @param filename - 文件名
  * @returns
  */
-export function downloadViaUrl(url: string, filename: string) {
+export default function downloadViaUrl(url: string, filename: string) {
   const link = document.createElement("a");
   link.href = url;
   link.download = filename;

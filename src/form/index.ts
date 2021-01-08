@@ -1,4 +1,4 @@
 import convertToFormData from "./convertToFormData";
-import { extendSerialNumber } from "./extendSerialNumber";
+import extendSerialNumber from "./extendSerialNumber";
 
 export { convertToFormData, extendSerialNumber };
