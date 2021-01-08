@@ -11,8 +11,10 @@
     "type": "git",
     "url": "git://github.com/HanZhaorz/rs-libs"
   },
-  "module": "./es/index.js",
-  "unpkg": "./umd/rs-utils.min.js",
+  "types": "./dist/type.d.ts",
+  "main": "./dist/re-utils.umd.js",
+  "module": "./dist/rs-utils.mjs",
+  "unpkg": "./dist/rs-utils.umd.min.js",
   "files": [
     "dist"
   ],
@@ -35,6 +37,7 @@
     "eslint-plugin-tsdoc": "^0.2.10",
     "prettier": "^2.2.1",
     "rollup": "^2.36.1",
+    "rollup-plugin-dts": "^2.0.1",
     "rollup-plugin-uglify": "^6.0.4",
     "typescript": "^4.1.3"
   }

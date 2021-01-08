@@ -11,7 +11,8 @@
     "paths": {
       "@/*": ["src/*"],
     },
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
   },
   "exclude": ["node_modules/**/*"],
   "include": ["src/**/*", "typings.d.ts", ".eslintrc.js", ".prettierrc.js"]
