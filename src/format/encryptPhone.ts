@@ -1,4 +1,4 @@
-import { OUTLIERS } from "@/const";
+import { OUTLIERS } from "../const";
 
 /**
  * 手机号加密
