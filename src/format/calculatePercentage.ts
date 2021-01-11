@@ -15,8 +15,8 @@ import { OUTLIERS } from "../const";
 export default function calculatePercentage(
   dividend: number | string | null,
   divisor: number | string | null,
-  several = 2,
   outliers = OUTLIERS,
+  several = 2,
 ) {
   if (dividend === null || divisor === null) {
     return outliers;
