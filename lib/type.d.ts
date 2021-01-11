@@ -109,7 +109,7 @@ declare function setLocalStorage<T>(key: string, value: T): void;
 declare function setSessionStorage<T>(key: string, value: T): void;
 
 /**
- * 为el添加单行省略样式
+ * 为el添加单行省略样式（节点需要有固定宽度）
  * @param el - react节点
  * @returns el
  */
@@ -139,6 +139,12 @@ declare type RegularType = keyof typeof Regular;
  * @returns 指定正则表达式
  */
 declare function getRegular(type: RegularType): RegExp;
+
+/**
+ * 判断当前浏览器是否为ie
+ * @returns number - ie浏览器版本 false - 不是ie
+ */
+declare function isIE(): number | false;
 
 declare const rsUtils: {
     convertToBase64: typeof convertToBase64;
@@ -171,6 +177,7 @@ declare const rsUtils: {
         creditCode: RegExp;
         financialCode: RegExp;
     };
+    isIE: typeof isIE;
 };
 
 export default rsUtils;
