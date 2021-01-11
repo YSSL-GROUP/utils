@@ -154,4 +154,21 @@ declare function getRegExp(type?: RegExpType): RegExp | {
     financialCode: RegExp;
 };
 
-export { calculatePercentage, convertToBase64, createFormData as convertToFormData, downloadViaBlob, downloadViaUrl, ellipsis, encryptPhone, extendSerialNumber, getLocalStorage, getRegExp, getSessionStorage, selectFiles, setLocalStorage, setSessionStorage };
+declare const rsUtils: {
+    convertToBase64: typeof convertToBase64;
+    downloadViaBlob: typeof downloadViaBlob;
+    downloadViaUrl: typeof downloadViaUrl;
+    selectFiles: typeof selectFiles;
+    convertToFormData: typeof createFormData;
+    extendSerialNumber: typeof extendSerialNumber;
+    calculatePercentage: typeof calculatePercentage;
+    encryptPhone: typeof encryptPhone;
+    getLocalStorage: typeof getLocalStorage;
+    getSessionStorage: typeof getSessionStorage;
+    setLocalStorage: typeof setLocalStorage;
+    setSessionStorage: typeof setSessionStorage;
+    ellipsis: typeof ellipsis;
+    getRegExp: typeof getRegExp;
+};
+
+export default rsUtils;

@@ -15,25 +15,30 @@ export default [
     ],
     output: [
       {
-        file: "./dist/rs-utils.umd.js",
+        file: "./lib/index.js",
+        format: "cjs",
+        exports: "named",
+      },
+      {
+        file: "./lib/rs-utils.umd.js",
         format: "umd",
         name: "rsUtils",
       },
       {
-        file: "./dist/rs-utils.umd.min.js",
+        file: "./lib/rs-utils.umd.min.js",
         format: "umd",
         name: "rsUtils",
         plugins: [uglify()],
       },
       {
-        file: "./dist/rs-utils.mjs",
+        file: "./lib/index.mjs",
         format: "es",
       },
     ],
   },
   {
     input: "src/index.ts",
-    output: [{ file: "dist/type.d.ts", format: "es" }],
+    output: [{ file: "lib/type.d.ts", format: "es" }],
     plugins: [dts()],
   },
 ];

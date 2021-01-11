@@ -11,12 +11,12 @@
     "type": "git",
     "url": "git://github.com/HanZhaorz/rs-libs"
   },
-  "types": "./dist/type.d.ts",
-  "main": "./dist/re-utils.umd.js",
-  "module": "./dist/rs-utils.mjs",
-  "unpkg": "./dist/rs-utils.umd.min.js",
+  "main": "lib/index.mjs",
+  "types": "lib/type.d.ts",
+  "module": "lib/index.mjs",
+  "unpkg": "lib/rs-utils.umd.min.js",
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
     "build": "rollup -c",
