@@ -18,6 +18,7 @@ import ellipsis from "./style/ellipsis";
 
 import getRegular from "./validate/getRegular";
 import Regular from "./validate/Regular";
+import isIE from "./validate/isIE";
 
 const rsUtils = {
   // file
@@ -41,6 +42,7 @@ const rsUtils = {
   // validate
   getRegular,
   Regular,
+  isIE,
 };
 
 export default rsUtils;
