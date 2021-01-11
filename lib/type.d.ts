@@ -1,3 +1,5 @@
+import React from 'react';
+
 /**
  * 文件或二进制数据转换为base64格式
  * @param data - File | Blob 对象
@@ -107,37 +109,13 @@ declare function setLocalStorage<T>(key: string, value: T): void;
 declare function setSessionStorage<T>(key: string, value: T): void;
 
 /**
- * 为dom添加 `row` 行省略样式
- * @param row - 行数
- * @param dom - 节点
- * @returns dom
+ * 为el添加单行省略样式
+ * @param el - react节点
+ * @returns el
  */
-declare function ellipsis(row: number | undefined, dom: HTMLElement): HTMLElement;
+declare function ellipsis<T extends JSX.Element>(el: T): React.FunctionComponentElement<any>;
 
-declare const RegExp$1: {
-    int: RegExp$1;
-    positiveInt: RegExp$1;
-    positiveIntOrDecimal: RegExp$1;
-    idCard: RegExp$1;
-    chinese: RegExp$1;
-    email: RegExp$1;
-    money: RegExp$1;
-    phone: RegExp$1;
-    ip4: RegExp$1;
-    ip6: RegExp$1;
-    img: RegExp$1;
-    url: RegExp$1;
-    creditCode: RegExp$1;
-    financialCode: RegExp$1;
-};
-declare type RegExpType = keyof typeof RegExp$1;
-
-/**
- * 获取正则表达式
- * @param type - 正则类型
- * @returns 指定正则表达式或所有正则表达式集合
- */
-declare function getRegExp(type?: RegExpType): RegExp | {
+declare const Regular: {
     int: RegExp;
     positiveInt: RegExp;
     positiveIntOrDecimal: RegExp;
@@ -153,6 +131,14 @@ declare function getRegExp(type?: RegExpType): RegExp | {
     creditCode: RegExp;
     financialCode: RegExp;
 };
+declare type RegularType = keyof typeof Regular;
+
+/**
+ * 获取指定正则表达式
+ * @param type - 正则类型
+ * @returns 指定正则表达式
+ */
+declare function getRegular(type: RegularType): RegExp;
 
 declare const rsUtils: {
     convertToBase64: typeof convertToBase64;
@@ -168,7 +154,23 @@ declare const rsUtils: {
     setLocalStorage: typeof setLocalStorage;
     setSessionStorage: typeof setSessionStorage;
     ellipsis: typeof ellipsis;
-    getRegExp: typeof getRegExp;
+    getRegular: typeof getRegular;
+    Regular: {
+        int: RegExp;
+        positiveInt: RegExp;
+        positiveIntOrDecimal: RegExp;
+        idCard: RegExp;
+        chinese: RegExp;
+        email: RegExp;
+        money: RegExp;
+        phone: RegExp;
+        ip4: RegExp;
+        ip6: RegExp;
+        img: RegExp;
+        url: RegExp;
+        creditCode: RegExp;
+        financialCode: RegExp;
+    };
 };
 
 export default rsUtils;

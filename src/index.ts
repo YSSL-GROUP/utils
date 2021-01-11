@@ -16,8 +16,8 @@ import setSessionStorage from "./storage/setSessionStorage";
 
 import ellipsis from "./style/ellipsis";
 
-import getRegExp from "./validate/getRegExp";
-import RegExp from "./validate/Regular";
+import getRegular from "./validate/getRegular";
+import Regular from "./validate/Regular";
 
 const rsUtils = {
   // file
@@ -39,8 +39,8 @@ const rsUtils = {
   // ellipsis
   ellipsis,
   // validate
-  getRegExp,
-  RegExp,
+  getRegular,
+  Regular,
 };
 
 export default rsUtils;

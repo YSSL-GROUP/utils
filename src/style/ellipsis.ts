@@ -1,22 +1,11 @@
+import React from "react";
 /**
- * 为dom添加 `row` 行省略样式
- * @param row - 行数
- * @param dom - 节点
- * @returns dom
+ * 为el添加单行省略样式（节点需要有固定宽度）
+ * @param el - react节点
+ * @returns el
  */
-export default function ellipsis(row = 1, dom: HTMLElement) {
-  dom.style.overflow = "hidden";
-  // @ts-ignore
-  dom.style["text-overflow"] = "ellipsis";
-  if (row === 1) {
-    // @ts-ignore
-    dom.style["white-space"] = "nowrap";
-  } else {
-    dom.style["display"] = "-webkit-box";
-    // @ts-ignore
-    dom.style["-webkit-line-clamp"] = row;
-    // @ts-ignore
-    dom.style["-webkit-box-orient"] = "vertical";
-  }
-  return dom;
+export default function ellipsis<T extends JSX.Element>(el: T) {
+  return React.cloneElement(el, {
+    style: { ...el.props.style, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
+  });
 }

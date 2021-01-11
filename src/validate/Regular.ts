@@ -27,7 +27,7 @@ const Regular = {
 
 export type RegularType = keyof typeof Regular;
 
-new Proxy(Regular, {
+export default new Proxy(Regular, {
   get(target, key: RegularType) {
     return target[key];
   },
@@ -35,5 +35,3 @@ new Proxy(Regular, {
     throw new Error("Regular can not be modified！");
   },
 });
-
-export default Regular;

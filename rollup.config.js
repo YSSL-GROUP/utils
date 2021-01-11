@@ -9,6 +9,7 @@ const extensions = [".js", ".ts"];
 export default [
   {
     input: "src/index.ts",
+    external: ["react"],
     plugins: [
       nodeResolve({ extensions }),
       babel({ babelHelpers: "bundled", extensions, presets: ["@babel/preset-env", "@babel/preset-typescript"] }),

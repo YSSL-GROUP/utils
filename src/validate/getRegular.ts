@@ -5,6 +5,6 @@ import Regular, { RegularType } from "./Regular";
  * @param type - 正则类型
  * @returns 指定正则表达式
  */
-export default function getRegExp(type: RegularType) {
+export default function getRegular(type: RegularType) {
   return Regular[type];
 }

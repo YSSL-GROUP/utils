@@ -1,3 +1,3 @@
-import getRegExp from "./getRegExp";
+import getRegular from "./getRegular";
 
-export { getRegExp };
+export { getRegular };
