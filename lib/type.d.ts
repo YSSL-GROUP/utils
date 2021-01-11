@@ -61,24 +61,28 @@ declare function extendSerialNumber<T>(page: number, pageSize: number, list: T[]
  * @param dividend - 被除数
  * @param divisor - 除数
  * @param several - 保留小数点后几位
+ * @param outliers - dividend === null || divisor === null 显示的默认值
  * @returns 百分比
  * @example
  * ```ts
  * calculatePercentage(200, 20, 3) // -> 10.000%
+ * calculatePercentage(null, 20, 3) // -> --
  * ```
  */
-declare function calculatePercentage(dividend: number, divisor: number, several?: number): string;
+declare function calculatePercentage(dividend: number | string | null, divisor: number | string | null, several?: number, outliers?: string): string | undefined;
 
 /**
  * 手机号加密
  * @param phone - 手机号
+ * @param outliers - 手机号为空时默认显示的值
  * @returns 手机号加密后的值
  * @example
  * ```ts
  * encryptPhone(15536435235) // -> 155****5235
+ * encryptPhone(null) // -> --
  * ```
  */
-declare function encryptPhone(phone: string | number | null): string;
+declare function encryptPhone(phone: string | number | null, outliers?: string): string;
 
 /**
  * 获取LocalStorage key = `key` 的值

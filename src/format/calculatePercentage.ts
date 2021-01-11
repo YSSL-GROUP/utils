@@ -1,4 +1,4 @@
-import { OUTLIERS } from "@/const";
+import { OUTLIERS } from "../const";
 /**
  * 计算百分比
  * @param dividend - 被除数
