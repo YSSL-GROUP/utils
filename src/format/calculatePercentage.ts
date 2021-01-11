@@ -18,7 +18,7 @@ export default function calculatePercentage(
   several = 2,
   outliers = OUTLIERS,
 ) {
-  if (dividend === "null" || divisor === "null") {
+  if (dividend === null || divisor === null) {
     return outliers;
   }
   if (typeof dividend === "number" && typeof divisor === "number") {
