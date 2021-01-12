@@ -15,6 +15,7 @@ import setLocalStorage from "./storage/setLocalStorage";
 import setSessionStorage from "./storage/setSessionStorage";
 
 import ellipsis from "./style/ellipsis";
+import ellipsisStr from "./style/ellipsisStr";
 
 import getRegular from "./validate/getRegular";
 import Regular from "./validate/Regular";
@@ -37,8 +38,9 @@ const rsUtils = {
   getSessionStorage,
   setLocalStorage,
   setSessionStorage,
-  // ellipsis
+  // style
   ellipsis,
+  ellipsisStr,
   // validate
   getRegular,
   Regular,
