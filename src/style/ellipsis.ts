@@ -1,6 +1,6 @@
 import React from "react";
 /**
- * 为el添加单行省略样式（节点需要有固定宽度）
+ * 为el节点添加单行省略样式（节点需要有固定宽度）
  * @param el - react节点
  * @returns el
  */
