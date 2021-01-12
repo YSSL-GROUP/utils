@@ -1,4 +1,4 @@
-const Regular = {
+const _Regular = {
   // 整数
   int: /^(\-|\+)?([0-9]+|Infinity)$/,
   //正整数
@@ -25,9 +25,12 @@ const Regular = {
   financialCode: /^(?=.*[A-Z])(?=.*\d)[A-Z\d]{15}$/,
 };
 
-export type RegularType = keyof typeof Regular;
+export type RegularType = keyof typeof _Regular;
 
-export default new Proxy(Regular, {
+/**
+ * 所有正则表达式
+ */
+const Regular = new Proxy(_Regular, {
   get(target, key: RegularType) {
     return target[key];
   },
@@ -35,3 +38,5 @@ export default new Proxy(Regular, {
     throw new Error("Regular can not be modified！");
   },
 });
+
+export default Regular;

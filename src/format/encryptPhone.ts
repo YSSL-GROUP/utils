@@ -1,8 +1,8 @@
 /**
- * 手机号加密
+ * 手机号脱敏
  * @param defaultValue - phone === null时默认显示的值
  * @param phone - 手机号
- * @returns 手机号加密后的值
+ * @returns 手机号脱敏后的值
  * @example
  * ```ts
  * encryptPhone("--", 15536435235) // -> 155****5235
