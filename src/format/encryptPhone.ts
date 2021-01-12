@@ -12,7 +12,7 @@
 export default function encryptPhone<D, V extends string | number | null>(
   defaultValue: D,
   phone: V,
-): V extends string | number ? "$1****$2" : D {
+): V extends string | number ? string : D {
   // @ts-ignore
   if (phone === null) return defaultValue;
   // @ts-ignore
