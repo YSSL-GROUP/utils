@@ -4,9 +4,9 @@
 
 ### fp
 
-- [] Maybe
-- [] Either
-- [] IO
+- [ ] Maybe
+- [ ] Either
+- [ ] IO
 
 ### file
 
@@ -47,7 +47,7 @@
 
 ### build
 
-- [] 拆分
+- [ ] 拆分
 - [X] rollup
 
 ### eslint
@@ -58,10 +58,10 @@
 
 ### typescript
 
-- [] 类型优化
+- [ ] 类型优化
 - [X] typescript
 
 ### git
 
-- [] 规范提交插件
+- [ ] 规范提交插件
 - [X] gitignore
