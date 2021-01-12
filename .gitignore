@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+
+/lib
+# production
+/es
+
+# misc
+.DS_Store
+.vscode
