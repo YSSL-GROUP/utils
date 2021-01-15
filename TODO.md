@@ -5,7 +5,7 @@
 ### fp
 
 - [ ] Maybe
-- [ ] Either
+- [ ] Either - beta
 - [ ] IO
 
 ### file

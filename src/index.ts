@@ -1,3 +1,5 @@
+import Either from "./fp/Either";
+
 import convertToBase64 from "./file/convertToBase64";
 import downloadViaBlob from "./file/downloadViaBlob";
 import downloadViaUrl from "./file/downloadViaUrl";
@@ -22,6 +24,8 @@ import Regular from "./validate/Regular";
 import isIE from "./validate/isIE";
 
 const rsUtils = {
+  // fp
+  Either,
   // file
   convertToBase64,
   downloadViaBlob,
