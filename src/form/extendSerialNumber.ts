@@ -11,7 +11,7 @@
  * extendSerialNumber(2, 20, list) // -> [{$serialNumber: 11, name: '小明'}, {$serialNumber: 12, name: '小红'}]
  * ```
  */
-export default function extendSerialNumber<T>(page: number, pageSize: number, list: T[]) {
+export function extendSerialNumber<T>(page: number, pageSize: number, list: T[]) {
   return list.map((item, idx) => {
     return { ...item, $serialNumber: idx + 1 + (page - 1) * pageSize };
   });

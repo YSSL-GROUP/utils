@@ -11,7 +11,7 @@
  * calculatePercentage('--', null, 20, 3) // -> --
  * ```
  */
-export default function calculatePercentage<D>(
+export function calculatePercentage<D>(
   defaultValue: D,
   dividend: number | string | null,
   divisor: number | string | null,

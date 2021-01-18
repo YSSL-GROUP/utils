@@ -9,7 +9,7 @@
  * ellipsisStr(4, null) // -> ""
  * ```
  */
-export default function ellipsisStr(limit: number, str: string | null) {
+export function ellipsisStr(limit: number, str: string | null) {
   if (!str) return "";
   return str.length > limit ? str.slice(0, limit) + "..." : str;
 }

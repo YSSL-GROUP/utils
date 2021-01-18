@@ -30,7 +30,7 @@ export type RegularType = keyof typeof _Regular;
 /**
  * 所有正则表达式
  */
-const Regular = new Proxy(_Regular, {
+export const Regular = new Proxy(_Regular, {
   get(target, key: RegularType) {
     return target[key];
   },
@@ -38,5 +38,3 @@ const Regular = new Proxy(_Regular, {
     throw new Error("Regular can not be modified！");
   },
 });
-
-export default Regular;

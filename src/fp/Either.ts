@@ -1,4 +1,4 @@
-export default class Either<V> {
+export class Either<V> {
   private constructor(readonly value: V) {}
 
   static of<T>(value: T): T extends null ? Left<T> : Right<T> {

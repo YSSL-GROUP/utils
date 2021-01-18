@@ -4,7 +4,7 @@ import React from "react";
  * @param el - react节点
  * @returns el
  */
-export default function ellipsis<T extends JSX.Element>(el: T) {
+export function ellipsis<T extends JSX.Element>(el: T) {
   return React.cloneElement(el, {
     style: { ...el.props.style, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
   });

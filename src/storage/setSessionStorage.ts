@@ -3,7 +3,7 @@
  * @param key - key
  * @returns
  */
-export default function setSessionStorage<T>(key: string, value: T) {
+export function setSessionStorage<T>(key: string, value: T) {
   const data = JSON.stringify(value);
   sessionStorage.setItem(key, data);
 }
