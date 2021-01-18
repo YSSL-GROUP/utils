@@ -19,8 +19,7 @@
     "lib"
   ],
   "scripts": {
-    "docs": "npx typedoc",
-    "docs:md": "npx typedoc --plugin typedoc-plugin-markdown",
+    "docs": "npx typedoc --plugin typedoc-plugin-markdown",
     "build": "rollup -c",
     "lint": "eslint -f unix \"src/**/*.{ts,tsx}\""
   },
