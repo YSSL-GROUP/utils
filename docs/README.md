@@ -1,4 +1,4 @@
-rs-utils / [Modules](modules.md)
+rs-utils / [Exports](modules.md)
 
 # `@rs-utils`
 
