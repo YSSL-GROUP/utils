@@ -1,4 +1,4 @@
-[rs-utils](../README.md) / [Exports](../modules.md) / Either
+[rs-utils](../README.md) / Either
 
 # Class: Either<V\>
 
@@ -46,7 +46,7 @@ Name | Type |
 
 **Returns:** [*Either*](either.md)<V\>
 
-Defined in: [fp/Either.ts:1](https://github.com/HanZhaorz/rs-utils/blob/2f261e7/src/fp/Either.ts#L1)
+Defined in: [fp/Either.ts:1](https://github.com/HanZhaorz/rs-utils/blob/a0d374f/src/fp/Either.ts#L1)
 
 ## Properties
 
@@ -74,4 +74,4 @@ Name | Type |
 
 **Returns:** T *extends* *null* ? *Left*<T\> : *Right*<T\>
 
-Defined in: [fp/Either.ts:4](https://github.com/HanZhaorz/rs-utils/blob/2f261e7/src/fp/Either.ts#L4)
+Defined in: [fp/Either.ts:4](https://github.com/HanZhaorz/rs-utils/blob/a0d374f/src/fp/Either.ts#L4)
