@@ -58,7 +58,7 @@ Name | Type | Value |
 `positiveIntOrDecimal` | *RegExp* | *RegExp* |
 `url` | *RegExp* | *RegExp* |
 
-Defined in: [validate/Regular.ts:33](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/validate/Regular.ts#L33)
+Defined in: [validate/Regular.ts:33](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/validate/Regular.ts#L33)
 
 ## Functions
 
@@ -93,7 +93,7 @@ Name | Type | Default value | Description |
 
 百分比
 
-Defined in: [format/calculatePercentage.ts:14](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/format/calculatePercentage.ts#L14)
+Defined in: [format/calculatePercentage.ts:14](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/format/calculatePercentage.ts#L14)
 
 ___
 
@@ -113,7 +113,7 @@ Name | Type | Description |
 
 base64字符串
 
-Defined in: [file/convertToBase64.ts:6](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/file/convertToBase64.ts#L6)
+Defined in: [file/convertToBase64.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/file/convertToBase64.ts#L6)
 
 ___
 
@@ -133,7 +133,7 @@ Name | Type | Default value | Description |
 
 FormData对象
 
-Defined in: [form/convertToFormData.ts:6](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/form/convertToFormData.ts#L6)
+Defined in: [form/convertToFormData.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/form/convertToFormData.ts#L6)
 
 ___
 
@@ -152,7 +152,7 @@ Name | Type | Description |
 
 **Returns:** *undefined* \| Error
 
-Defined in: [file/downloadViaBlob.ts:7](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/file/downloadViaBlob.ts#L7)
+Defined in: [file/downloadViaBlob.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/file/downloadViaBlob.ts#L7)
 
 ___
 
@@ -171,7 +171,7 @@ Name | Type | Description |
 
 **Returns:** *void*
 
-Defined in: [file/downloadViaUrl.ts:7](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/file/downloadViaUrl.ts#L7)
+Defined in: [file/downloadViaUrl.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/file/downloadViaUrl.ts#L7)
 
 ___
 
@@ -197,7 +197,7 @@ Name | Type | Description |
 
 el
 
-Defined in: [style/ellipsis.ts:7](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/style/ellipsis.ts#L7)
+Defined in: [style/ellipsis.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/style/ellipsis.ts#L7)
 
 ___
 
@@ -224,7 +224,7 @@ Name | Type | Description |
 
 截取并带省略号的字符串
 
-Defined in: [style/ellipsisStr.ts:12](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/style/ellipsisStr.ts#L12)
+Defined in: [style/ellipsisStr.ts:12](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/style/ellipsisStr.ts#L12)
 
 ___
 
@@ -257,7 +257,7 @@ Name | Type | Description |
 
 手机号脱敏后的值
 
-Defined in: [format/encryptPhone.ts:12](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/format/encryptPhone.ts#L12)
+Defined in: [format/encryptPhone.ts:12](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/format/encryptPhone.ts#L12)
 
 ___
 
@@ -292,7 +292,7 @@ Name | Type | Description |
 
 添加序号后的数据列表 `key=$serialNumber`
 
-Defined in: [form/extendSerialNumber.ts:14](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/form/extendSerialNumber.ts#L14)
+Defined in: [form/extendSerialNumber.ts:14](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/form/extendSerialNumber.ts#L14)
 
 ___
 
@@ -318,7 +318,7 @@ Name | Type | Description |
 
 经JSON.parse转换后的值
 
-Defined in: [storage/getLocalStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/storage/getLocalStorage.ts#L6)
+Defined in: [storage/getLocalStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/storage/getLocalStorage.ts#L6)
 
 ___
 
@@ -338,7 +338,7 @@ Name | Type | Description |
 
 指定正则表达式
 
-Defined in: [validate/getRegular.ts:8](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/validate/getRegular.ts#L8)
+Defined in: [validate/getRegular.ts:8](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/validate/getRegular.ts#L8)
 
 ___
 
@@ -364,7 +364,7 @@ Name | Type | Description |
 
 经JSON.parse转换后的值
 
-Defined in: [storage/getSessionStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/storage/getSessionStorage.ts#L6)
+Defined in: [storage/getSessionStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/storage/getSessionStorage.ts#L6)
 
 ___
 
@@ -376,10 +376,9 @@ ___
 
 **Returns:** *number* \| *false*
 
-number - ie版本号
-浏览器版本 false - 不是ie
+(number - ie版本号) (false - 不是ie)
 
-Defined in: [validate/isIE.ts:7](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/validate/isIE.ts#L7)
+Defined in: [validate/isIE.ts:5](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/validate/isIE.ts#L5)
 
 ___
 
@@ -399,7 +398,7 @@ Name | Type | Description |
 
 选择的文件集合
 
-Defined in: [file/selectFiles.ts:6](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/file/selectFiles.ts#L6)
+Defined in: [file/selectFiles.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/file/selectFiles.ts#L6)
 
 ___
 
@@ -424,7 +423,7 @@ Name | Type | Description |
 
 **Returns:** *void*
 
-Defined in: [storage/setLocalStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/storage/setLocalStorage.ts#L6)
+Defined in: [storage/setLocalStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/storage/setLocalStorage.ts#L6)
 
 ___
 
@@ -449,4 +448,4 @@ Name | Type | Description |
 
 **Returns:** *void*
 
-Defined in: [storage/setSessionStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/8ec8626/src/storage/setSessionStorage.ts#L6)
+Defined in: [storage/setSessionStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/storage/setSessionStorage.ts#L6)
