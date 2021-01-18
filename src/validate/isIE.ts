@@ -1,6 +1,8 @@
 /**
  * 判断当前浏览器是否为ie
- * @returns number - ie浏览器版本 false - 不是ie
+ * @returns
+ * number - ie版本号
+ * 浏览器版本 false - 不是ie
  */
 export function isIE() {
   const myNav = navigator.userAgent.toLowerCase();
