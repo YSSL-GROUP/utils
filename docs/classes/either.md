@@ -46,7 +46,7 @@ Name | Type |
 
 **Returns:** [*Either*](either.md)<V\>
 
-Defined in: [fp/Either.ts:1](https://github.com/HanZhaorz/rs-utils/blob/b368019/src/fp/Either.ts#L1)
+Defined in: [fp/Either.ts:1](https://github.com/HanZhaorz/rs-utils/blob/c2e77a7/src/fp/Either.ts#L1)
 
 ## Properties
 
@@ -74,4 +74,4 @@ Name | Type |
 
 **Returns:** T *extends* *null* ? *Left*<T\> : *Right*<T\>
 
-Defined in: [fp/Either.ts:4](https://github.com/HanZhaorz/rs-utils/blob/b368019/src/fp/Either.ts#L4)
+Defined in: [fp/Either.ts:4](https://github.com/HanZhaorz/rs-utils/blob/c2e77a7/src/fp/Either.ts#L4)
