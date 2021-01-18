@@ -1,4 +1,12 @@
 {
-  "entryPoints": ["src/index.ts"],
+  "entryPoints": [
+    "src/file/index.ts",
+    "src/form/index.ts", 
+    "src/format/index.ts", 
+    "src/fp/index.ts",
+    "src/storage/index.ts",
+    "src/style/index.ts",
+    "src/validate/index.ts"
+  ],
   "out": "docs"
 }
