@@ -11,14 +11,12 @@
  * calculatePercentage('--', null, 20, 3) // -> --
  * ```
  */
-export default function calculatePercentage<D, V1 extends number | string | null, V2 extends number | string | null>(
+export default function calculatePercentage<D>(
   defaultValue: D,
-  dividend: V1,
-  divisor: V2,
+  dividend: number | string | null,
+  divisor: number | string | null,
   several = 2,
-): V1 extends number | string ? (V2 extends number | string ? string : D) : D {
-  // @ts-ignore
+) {
   if (dividend === null || divisor === null) return defaultValue;
-  // @ts-ignore
   return ((Number(dividend) / Number(divisor)) * 100).toFixed(several) + "%";
 }

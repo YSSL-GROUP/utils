@@ -9,12 +9,7 @@
  * encryptPhone("--", null) // -> --
  * ```
  */
-export default function encryptPhone<D, V extends string | number | null>(
-  defaultValue: D,
-  phone: V,
-): V extends string | number ? string : D {
-  // @ts-ignore
+export default function encryptPhone<D>(defaultValue: D, phone: string | number | null) {
   if (phone === null) return defaultValue;
-  // @ts-ignore
   return phone.toString().replace(/(\d{3})\d*(\d{4})/, "$1****$2");
 }
