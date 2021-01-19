@@ -5,12 +5,14 @@ import { isNullable, isNumber, isObject, isString } from "../helper/guard";
  * @returns
  */
 export function setLocalStorage<T>(key: string, value: T) {
-  if (isNullable(value)) return;
-  localStorage.setItem(key, data(value));
+  const data = transfer(value);
+  localStorage.setItem(key, data);
+  return data;
 
-  function data(value: T) {
-    if (isNumber(value)) return value.toString();
+  function transfer(value: T) {
+    if (isNullable(value)) return "";
     if (isString(value)) return value;
+    if (isNumber(value)) return value.toString();
     if (isObject(value)) return JSON.stringify(value);
     return "";
   }
