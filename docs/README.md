@@ -64,7 +64,7 @@ Name | Type | Value |
 `positiveIntOrDecimal` | *RegExp* | *RegExp* |
 `url` | *RegExp* | *RegExp* |
 
-Defined in: [validate/Regular.ts:33](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/validate/Regular.ts#L33)
+Defined in: [validate/Regular.ts:33](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/validate/Regular.ts#L33)
 
 ## Functions
 
@@ -83,7 +83,7 @@ Name | Type | Description |
 
 **Returns:** *undefined* \| Error
 
-Defined in: [action/downloadViaBlob.ts:7](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/action/downloadViaBlob.ts#L7)
+Defined in: [action/downloadViaBlob.ts:7](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/action/downloadViaBlob.ts#L7)
 
 ___
 
@@ -102,7 +102,7 @@ Name | Type | Description |
 
 **Returns:** *void*
 
-Defined in: [action/downloadViaUrl.ts:7](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/action/downloadViaUrl.ts#L7)
+Defined in: [action/downloadViaUrl.ts:7](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/action/downloadViaUrl.ts#L7)
 
 ___
 
@@ -128,7 +128,7 @@ Name | Type | Description |
 
 el
 
-Defined in: [style/ellipsis.ts:7](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/style/ellipsis.ts#L7)
+Defined in: [style/ellipsis.ts:7](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/style/ellipsis.ts#L7)
 
 ___
 
@@ -155,7 +155,7 @@ Name | Type | Description |
 
 截取并带省略号的字符串
 
-Defined in: [style/ellipsisStr.ts:12](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/style/ellipsisStr.ts#L12)
+Defined in: [style/ellipsisStr.ts:12](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/style/ellipsisStr.ts#L12)
 
 ___
 
@@ -188,7 +188,7 @@ Name | Type | Description |
 
 手机号脱敏后的值
 
-Defined in: [transform/encryptPhone.ts:12](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/transform/encryptPhone.ts#L12)
+Defined in: [transform/encryptPhone.ts:12](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/transform/encryptPhone.ts#L12)
 
 ___
 
@@ -223,7 +223,7 @@ Name | Type | Description |
 
 添加序号后的数据列表 `key=$No`
 
-Defined in: [transform/extNo.ts:14](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/transform/extNo.ts#L14)
+Defined in: [transform/extNo.ts:14](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/transform/extNo.ts#L14)
 
 ___
 
@@ -237,14 +237,14 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`type` | ValueType | 指定类型   |
+`type` | ValueType | "string" | "number" | "object" | "array"   |
 `key` | *string* | key   |
 
 **Returns:** *string* \| *number* \| AnyObject
 
 将`LocalStorage`的值转换指定`type`的值
 
-Defined in: [storage/getLocalStorage.ts:9](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/storage/getLocalStorage.ts#L9)
+Defined in: [storage/getLocalStorage.ts:9](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/storage/getLocalStorage.ts#L9)
 
 ___
 
@@ -264,7 +264,7 @@ Name | Type | Description |
 
 指定正则表达式
 
-Defined in: [validate/getRegular.ts:8](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/validate/getRegular.ts#L8)
+Defined in: [validate/getRegular.ts:8](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/validate/getRegular.ts#L8)
 
 ___
 
@@ -278,14 +278,14 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`type` | ValueType | 指定类型   |
+`type` | ValueType | "string" | "number" | "object" | "array"   |
 `key` | *string* | key   |
 
 **Returns:** *string* \| *number* \| AnyObject
 
 将`SessionStorage`的值转换指定`type`的值
 
-Defined in: [storage/getSessionStorage.ts:9](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/storage/getSessionStorage.ts#L9)
+Defined in: [storage/getSessionStorage.ts:9](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/storage/getSessionStorage.ts#L9)
 
 ___
 
@@ -301,7 +301,7 @@ Name | Type |
 
 **Returns:** value is boolean
 
-Defined in: [helper/guard.ts:11](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/helper/guard.ts#L11)
+Defined in: [helper/guard.ts:11](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/helper/guard.ts#L11)
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 (number - ie版本号) (false - 不是ie)
 
-Defined in: [validate/isIE.ts:5](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/validate/isIE.ts#L5)
+Defined in: [validate/isIE.ts:5](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/validate/isIE.ts#L5)
 
 ___
 
@@ -331,7 +331,7 @@ Name | Type |
 
 **Returns:** value is null
 
-Defined in: [helper/guard.ts:3](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/helper/guard.ts#L3)
+Defined in: [helper/guard.ts:3](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/helper/guard.ts#L3)
 
 ___
 
@@ -347,7 +347,7 @@ Name | Type |
 
 **Returns:** value is number
 
-Defined in: [helper/guard.ts:7](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/helper/guard.ts#L7)
+Defined in: [helper/guard.ts:7](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/helper/guard.ts#L7)
 
 ___
 
@@ -363,7 +363,7 @@ Name | Type |
 
 **Returns:** value is AnyObject
 
-Defined in: [helper/guard.ts:19](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/helper/guard.ts#L19)
+Defined in: [helper/guard.ts:19](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/helper/guard.ts#L19)
 
 ___
 
@@ -379,7 +379,7 @@ Name | Type |
 
 **Returns:** value is string
 
-Defined in: [helper/guard.ts:15](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/helper/guard.ts#L15)
+Defined in: [helper/guard.ts:15](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/helper/guard.ts#L15)
 
 ___
 
@@ -414,7 +414,7 @@ Name | Type | Default value | Description |
 
 百分比
 
-Defined in: [transform/pct.ts:14](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/transform/pct.ts#L14)
+Defined in: [transform/pct.ts:14](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/transform/pct.ts#L14)
 
 ___
 
@@ -434,7 +434,7 @@ Name | Type | Description |
 
 选择的文件集合
 
-Defined in: [action/selectFiles.ts:6](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/action/selectFiles.ts#L6)
+Defined in: [action/selectFiles.ts:6](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/action/selectFiles.ts#L6)
 
 ___
 
@@ -453,7 +453,7 @@ Name | Type | Description |
 
 **Returns:** *string*
 
-Defined in: [storage/setLocalStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/storage/setLocalStorage.ts#L7)
+Defined in: [storage/setLocalStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/storage/setLocalStorage.ts#L7)
 
 ___
 
@@ -472,7 +472,7 @@ Name | Type | Description |
 
 **Returns:** *string*
 
-Defined in: [storage/setSessionStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/storage/setSessionStorage.ts#L7)
+Defined in: [storage/setSessionStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/storage/setSessionStorage.ts#L7)
 
 ___
 
@@ -492,7 +492,7 @@ Name | Type | Description |
 
 base64字符串
 
-Defined in: [transform/toBase64.ts:6](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/transform/toBase64.ts#L6)
+Defined in: [transform/toBase64.ts:6](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/transform/toBase64.ts#L6)
 
 ___
 
@@ -512,13 +512,15 @@ Name | Type | Default value | Description |
 
 FormData对象
 
-Defined in: [transform/toFormData.ts:6](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/transform/toFormData.ts#L6)
+Defined in: [transform/toFormData.ts:6](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/transform/toFormData.ts#L6)
 
 ___
 
 ### toValue
 
 ▸ **toValue**<T\>(`type`: ValueType, `value`: *string* \| *null*): *string* \| *number* \| AnyObject
+
+将字符串转换为指定`type`值
 
 #### Type parameters:
 
@@ -528,11 +530,11 @@ Name |
 
 #### Parameters:
 
-Name | Type |
------- | ------ |
-`type` | ValueType |
-`value` | *string* \| *null* |
+Name | Type | Description |
+------ | ------ | ------ |
+`type` | ValueType | "string" | "number" | "object" | "array"   |
+`value` | *string* \| *null* | 值   |
 
 **Returns:** *string* \| *number* \| AnyObject
 
-Defined in: [transform/toValue.ts:4](https://github.com/HanZhaorz/rs-utils/blob/6129952/src/transform/toValue.ts#L4)
+Defined in: [transform/toValue.ts:10](https://github.com/HanZhaorz/rs-utils/blob/c754b42/src/transform/toValue.ts#L10)
