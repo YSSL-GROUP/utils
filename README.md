@@ -2,4 +2,4 @@
 
 [TODO](TODO.md)
 
-[DOCS](docs/README.md)
+[文档](docs/README.md)
