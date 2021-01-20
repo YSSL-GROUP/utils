@@ -1,5 +1,5 @@
 /**
- * 计算百分比
+ * 计算百分比 (pct是percentage缩写)
  * @param defaultValue - dividend === null || divisor === null 显示的默认值
  * @param dividend - 被除数
  * @param divisor - 除数
@@ -7,11 +7,11 @@
  * @returns 百分比
  * @example
  * ```ts
- * calculatePercentage('--', 200, 20, 3) // -> 10.000%
- * calculatePercentage('--', null, 20, 3) // -> --
+ * pct('--', 200, 20, 3) // -> 10.000%
+ * pct('--', null, 20, 3) // -> --
  * ```
  */
-export function calculatePercentage<D>(
+export function pct<D>(
   defaultValue: D,
   dividend: number | string | null,
   divisor: number | string | null,

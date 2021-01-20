@@ -1,4 +1,4 @@
 export { convertToFormData } from "./convertToFormData";
 export { extendSerialNumber } from "./extendSerialNumber";
-export { calculatePercentage } from "./calculatePercentage";
+export { pct } from "./pct";
 export { encryptPhone } from "./encryptPhone";
