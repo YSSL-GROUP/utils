@@ -2,6 +2,7 @@ export type NumberStr = "number";
 export type ObjectStr = "object";
 export type StringStr = "string";
 export type ArrayStr = "array";
+export type ValueType = NumberStr | ObjectStr | StringStr | ArrayStr;
 
 export type AnyObject = { [p in string]: AnyObject | any };
 export type StringObject = { [p in string]: StringObject | string };

@@ -1,9 +1,11 @@
+import { ValueType } from "../helper/type";
+import { toValue } from "../transform/toValue";
 /**
  * 获取SessionStorage key = `key` 的值
+ * @param type - 指定类型
  * @param key - key
- * @returns 经JSON.parse转换后的值
+ * @returns 将`SessionStorage`的值转换指定`type`的值
  */
-export function getSessionStorage<T>(key: string) {
-  const str = sessionStorage.getItem(key);
-  return str ? (JSON.parse(str) as T) : null;
+export function getSessionStorage(type: ValueType, key: string) {
+  return toValue(type, sessionStorage.getItem(key));
 }
