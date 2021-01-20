@@ -14,22 +14,27 @@ rs-utils
 
 ### Functions
 
-- [calculatePercentage](README.md#calculatepercentage)
-- [convertToBase64](README.md#converttobase64)
-- [convertToFormData](README.md#converttoformdata)
 - [downloadViaBlob](README.md#downloadviablob)
 - [downloadViaUrl](README.md#downloadviaurl)
 - [ellipsis](README.md#ellipsis)
 - [ellipsisStr](README.md#ellipsisstr)
 - [encryptPhone](README.md#encryptphone)
-- [extendSerialNumber](README.md#extendserialnumber)
+- [extNo](README.md#extno)
 - [getLocalStorage](README.md#getlocalstorage)
 - [getRegular](README.md#getregular)
 - [getSessionStorage](README.md#getsessionstorage)
+- [isBoolean](README.md#isboolean)
 - [isIE](README.md#isie)
+- [isNullable](README.md#isnullable)
+- [isNumber](README.md#isnumber)
+- [isObject](README.md#isobject)
+- [isString](README.md#isstring)
+- [pct](README.md#pct)
 - [selectFiles](README.md#selectfiles)
 - [setLocalStorage](README.md#setlocalstorage)
 - [setSessionStorage](README.md#setsessionstorage)
+- [toBase64](README.md#tobase64)
+- [toFormData](README.md#toformdata)
 
 ## Variables
 
@@ -58,84 +63,9 @@ Name | Type | Value |
 `positiveIntOrDecimal` | *RegExp* | *RegExp* |
 `url` | *RegExp* | *RegExp* |
 
-Defined in: [validate/Regular.ts:33](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/validate/Regular.ts#L33)
+Defined in: [validate/Regular.ts:33](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/validate/Regular.ts#L33)
 
 ## Functions
-
-### calculatePercentage
-
-▸ **calculatePercentage**<D\>(`defaultValue`: D, `dividend`: *number* \| *string* \| *null*, `divisor`: *number* \| *string* \| *null*, `several?`: *number*): *string* \| D
-
-计算百分比
-
-**`example`** 
-```ts
-calculatePercentage('--', 200, 20, 3) // -> 10.000%
-calculatePercentage('--', null, 20, 3) // -> --
-```
-
-#### Type parameters:
-
-Name |
------- |
-`D` |
-
-#### Parameters:
-
-Name | Type | Default value | Description |
------- | ------ | ------ | ------ |
-`defaultValue` | D | - | dividend === null || divisor === null 显示的默认值   |
-`dividend` | *number* \| *string* \| *null* | - | 被除数   |
-`divisor` | *number* \| *string* \| *null* | - | 除数   |
-`several` | *number* | 2 | 保留小数点后几位   |
-
-**Returns:** *string* \| D
-
-百分比
-
-Defined in: [format/calculatePercentage.ts:14](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/format/calculatePercentage.ts#L14)
-
-___
-
-### convertToBase64
-
-▸ **convertToBase64**(`data?`: File \| Blob): *Promise*<*null* \| *string* \| ArrayBuffer\>
-
-文件或二进制数据转换为base64格式
-
-#### Parameters:
-
-Name | Type | Description |
------- | ------ | ------ |
-`data?` | File \| Blob | File | Blob 对象   |
-
-**Returns:** *Promise*<*null* \| *string* \| ArrayBuffer\>
-
-base64字符串
-
-Defined in: [file/convertToBase64.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/file/convertToBase64.ts#L6)
-
-___
-
-### convertToFormData
-
-▸ **convertToFormData**(`obj?`: { [p in string]: any}): FormData
-
-将普通对象转换成FormData对象
-
-#### Parameters:
-
-Name | Type | Default value | Description |
------- | ------ | ------ | ------ |
-`obj` | { [p in string]: any} | ... | 对象   |
-
-**Returns:** FormData
-
-FormData对象
-
-Defined in: [form/convertToFormData.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/form/convertToFormData.ts#L6)
-
-___
 
 ### downloadViaBlob
 
@@ -152,7 +82,7 @@ Name | Type | Description |
 
 **Returns:** *undefined* \| Error
 
-Defined in: [file/downloadViaBlob.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/file/downloadViaBlob.ts#L7)
+Defined in: [action/downloadViaBlob.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/action/downloadViaBlob.ts#L7)
 
 ___
 
@@ -171,7 +101,7 @@ Name | Type | Description |
 
 **Returns:** *void*
 
-Defined in: [file/downloadViaUrl.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/file/downloadViaUrl.ts#L7)
+Defined in: [action/downloadViaUrl.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/action/downloadViaUrl.ts#L7)
 
 ___
 
@@ -197,7 +127,7 @@ Name | Type | Description |
 
 el
 
-Defined in: [style/ellipsis.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/style/ellipsis.ts#L7)
+Defined in: [style/ellipsis.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/style/ellipsis.ts#L7)
 
 ___
 
@@ -224,7 +154,7 @@ Name | Type | Description |
 
 截取并带省略号的字符串
 
-Defined in: [style/ellipsisStr.ts:12](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/style/ellipsisStr.ts#L12)
+Defined in: [style/ellipsisStr.ts:12](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/style/ellipsisStr.ts#L12)
 
 ___
 
@@ -257,21 +187,21 @@ Name | Type | Description |
 
 手机号脱敏后的值
 
-Defined in: [format/encryptPhone.ts:12](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/format/encryptPhone.ts#L12)
+Defined in: [transform/encryptPhone.ts:12](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/transform/encryptPhone.ts#L12)
 
 ___
 
-### extendSerialNumber
+### extNo
 
-▸ **extendSerialNumber**<T\>(`page`: *number*, `pageSize`: *number*, `list`: T[]): T & { `$serialNumber`: *number*  }[]
+▸ **extNo**<T\>(`page`: *number*, `pageSize`: *number*, `list`: T[]): T & { `$No`: *number*  }[]
 
-为列表扩展序号字段
+为列表扩展序号字段 (ext是extend缩写,No是number order缩写)
 
 **`example`** 
 ```ts
 const list = [{name: '小明'}, {name: '小红'}]
-extendSerialNumber(1, 20, list) // -> [{$serialNumber: 1, name: '小明'}, {$serialNumber: 2, name: '小红'}]
-extendSerialNumber(2, 20, list) // -> [{$serialNumber: 11, name: '小明'}, {$serialNumber: 12, name: '小红'}]
+extNo(1, 20, list) // -> [{$No: 1, name: '小明'}, {$No: 2, name: '小红'}]
+extNo(2, 20, list) // -> [{$No: 11, name: '小明'}, {$No: 12, name: '小红'}]
 ```
 
 #### Type parameters:
@@ -288,11 +218,11 @@ Name | Type | Description |
 `pageSize` | *number* | 每页条数   |
 `list` | T[] | 数据列表   |
 
-**Returns:** T & { `$serialNumber`: *number*  }[]
+**Returns:** T & { `$No`: *number*  }[]
 
-添加序号后的数据列表 `key=$serialNumber`
+添加序号后的数据列表 `key=$No`
 
-Defined in: [form/extendSerialNumber.ts:14](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/form/extendSerialNumber.ts#L14)
+Defined in: [transform/extNo.ts:14](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/transform/extNo.ts#L14)
 
 ___
 
@@ -318,7 +248,7 @@ Name | Type | Description |
 
 经JSON.parse转换后的值
 
-Defined in: [storage/getLocalStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/storage/getLocalStorage.ts#L6)
+Defined in: [storage/getLocalStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/storage/getLocalStorage.ts#L6)
 
 ___
 
@@ -338,7 +268,7 @@ Name | Type | Description |
 
 指定正则表达式
 
-Defined in: [validate/getRegular.ts:8](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/validate/getRegular.ts#L8)
+Defined in: [validate/getRegular.ts:8](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/validate/getRegular.ts#L8)
 
 ___
 
@@ -364,7 +294,23 @@ Name | Type | Description |
 
 经JSON.parse转换后的值
 
-Defined in: [storage/getSessionStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/storage/getSessionStorage.ts#L6)
+Defined in: [storage/getSessionStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/storage/getSessionStorage.ts#L6)
+
+___
+
+### isBoolean
+
+▸ **isBoolean**(`value`: *any*): value is boolean
+
+#### Parameters:
+
+Name | Type |
+------ | ------ |
+`value` | *any* |
+
+**Returns:** value is boolean
+
+Defined in: [helper/guard.ts:11](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/helper/guard.ts#L11)
 
 ___
 
@@ -378,7 +324,106 @@ ___
 
 (number - ie版本号) (false - 不是ie)
 
-Defined in: [validate/isIE.ts:5](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/validate/isIE.ts#L5)
+Defined in: [validate/isIE.ts:5](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/validate/isIE.ts#L5)
+
+___
+
+### isNullable
+
+▸ **isNullable**(`value`: *any*): value is null
+
+#### Parameters:
+
+Name | Type |
+------ | ------ |
+`value` | *any* |
+
+**Returns:** value is null
+
+Defined in: [helper/guard.ts:3](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/helper/guard.ts#L3)
+
+___
+
+### isNumber
+
+▸ **isNumber**(`value`: *any*): value is number
+
+#### Parameters:
+
+Name | Type |
+------ | ------ |
+`value` | *any* |
+
+**Returns:** value is number
+
+Defined in: [helper/guard.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/helper/guard.ts#L7)
+
+___
+
+### isObject
+
+▸ **isObject**(`value`: *any*): value is AnyObject
+
+#### Parameters:
+
+Name | Type |
+------ | ------ |
+`value` | *any* |
+
+**Returns:** value is AnyObject
+
+Defined in: [helper/guard.ts:19](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/helper/guard.ts#L19)
+
+___
+
+### isString
+
+▸ **isString**(`value`: *any*): value is string
+
+#### Parameters:
+
+Name | Type |
+------ | ------ |
+`value` | *any* |
+
+**Returns:** value is string
+
+Defined in: [helper/guard.ts:15](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/helper/guard.ts#L15)
+
+___
+
+### pct
+
+▸ **pct**<D\>(`defaultValue`: D, `dividend`: *number* \| *string* \| *null*, `divisor`: *number* \| *string* \| *null*, `several?`: *number*): *string* \| D
+
+计算百分比 (pct是percentage缩写)
+
+**`example`** 
+```ts
+pct('--', 200, 20, 3) // -> 10.000%
+pct('--', null, 20, 3) // -> --
+```
+
+#### Type parameters:
+
+Name |
+------ |
+`D` |
+
+#### Parameters:
+
+Name | Type | Default value | Description |
+------ | ------ | ------ | ------ |
+`defaultValue` | D | - | dividend === null || divisor === null 显示的默认值   |
+`dividend` | *number* \| *string* \| *null* | - | 被除数   |
+`divisor` | *number* \| *string* \| *null* | - | 除数   |
+`several` | *number* | 2 | 保留小数点后几位   |
+
+**Returns:** *string* \| D
+
+百分比
+
+Defined in: [transform/pct.ts:14](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/transform/pct.ts#L14)
 
 ___
 
@@ -398,54 +443,82 @@ Name | Type | Description |
 
 选择的文件集合
 
-Defined in: [file/selectFiles.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/file/selectFiles.ts#L6)
+Defined in: [action/selectFiles.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/action/selectFiles.ts#L6)
 
 ___
 
 ### setLocalStorage
 
-▸ **setLocalStorage**<T\>(`key`: *string*, `value`: T): *void*
+▸ **setLocalStorage**(`key`: *string*, `value`: *any*): *string*
 
 设置LocalStorage key = `key` 的值（值会通过JSON.stringify序列化）
-
-#### Type parameters:
-
-Name |
------- |
-`T` |
 
 #### Parameters:
 
 Name | Type | Description |
 ------ | ------ | ------ |
 `key` | *string* | key   |
-`value` | T | - |
+`value` | *any* | - |
 
-**Returns:** *void*
+**Returns:** *string*
 
-Defined in: [storage/setLocalStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/storage/setLocalStorage.ts#L6)
+Defined in: [storage/setLocalStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/storage/setLocalStorage.ts#L7)
 
 ___
 
 ### setSessionStorage
 
-▸ **setSessionStorage**<T\>(`key`: *string*, `value`: T): *void*
+▸ **setSessionStorage**(`key`: *string*, `value`: *any*): *string*
 
 设置SessionStorage key = `key` 的值（值会通过JSON.stringify序列化）
-
-#### Type parameters:
-
-Name |
------- |
-`T` |
 
 #### Parameters:
 
 Name | Type | Description |
 ------ | ------ | ------ |
 `key` | *string* | key   |
-`value` | T | - |
+`value` | *any* | - |
 
-**Returns:** *void*
+**Returns:** *string*
 
-Defined in: [storage/setSessionStorage.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1d61acb/src/storage/setSessionStorage.ts#L6)
+Defined in: [storage/setSessionStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/storage/setSessionStorage.ts#L7)
+
+___
+
+### toBase64
+
+▸ **toBase64**(`data?`: File \| Blob): *Promise*<*null* \| *string* \| ArrayBuffer\>
+
+文件或二进制数据转换为base64格式
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`data?` | File \| Blob | File | Blob 对象   |
+
+**Returns:** *Promise*<*null* \| *string* \| ArrayBuffer\>
+
+base64字符串
+
+Defined in: [transform/toBase64.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/transform/toBase64.ts#L6)
+
+___
+
+### toFormData
+
+▸ **toFormData**(`obj?`: { [p in string]: any}): FormData
+
+将普通对象转换成FormData对象
+
+#### Parameters:
+
+Name | Type | Default value | Description |
+------ | ------ | ------ | ------ |
+`obj` | { [p in string]: any} | ... | 对象   |
+
+**Returns:** FormData
+
+FormData对象
+
+Defined in: [transform/toFormData.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1096958/src/transform/toFormData.ts#L6)
