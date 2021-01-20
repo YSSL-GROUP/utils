@@ -1,6 +1,5 @@
 export * from "./file";
-export * from "./form";
-export * from "./format";
+export * from "./transform";
 export * from "./fp";
 export * from "./storage";
 export * from "./style";
