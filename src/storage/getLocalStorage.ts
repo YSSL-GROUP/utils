@@ -2,7 +2,7 @@ import { ValueType } from "../helper/type";
 import { toValue } from "../transform/toValue";
 /**
  * 获取LocalStorage key = `key` 的值
- * @param type - 指定类型
+ * @param type - "string" | "number" | "object" | "array"
  * @param key - key
  * @returns 将`LocalStorage`的值转换指定`type`的值
  */
