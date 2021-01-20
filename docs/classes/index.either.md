@@ -1,8 +1,8 @@
-[rs-utils](../../README.md) / [fp/Either](../../modules/fp_either.md) / Either
+[rs-utils](../README.md) / [index](../modules/index.md) / Either
 
 # Class: Either<V\>
 
-[fp/Either](../../modules/fp_either.md).Either
+[index](../modules/index.md).Either
 
 ## Type parameters
 
@@ -18,21 +18,21 @@ Name |
 
 ### Constructors
 
-- [constructor](either.either.md#constructor)
+- [constructor](index.either.md#constructor)
 
 ### Properties
 
-- [value](either.either.md#value)
+- [value](index.either.md#value)
 
 ### Methods
 
-- [of](either.either.md#of)
+- [of](index.either.md#of)
 
 ## Constructors
 
 ### constructor
 
-\+ **new Either**<V\>(`value`: V): [*Either*](either.either.md)<V\>
+\+ **new Either**<V\>(`value`: V): [*Either*](index.either.md)<V\>
 
 #### Type parameters:
 
@@ -46,9 +46,9 @@ Name | Type |
 ------ | ------ |
 `value` | V |
 
-**Returns:** [*Either*](either.either.md)<V\>
+**Returns:** [*Either*](index.either.md)<V\>
 
-Defined in: [fp/Either.ts:1](https://github.com/HanZhaorz/rs-utils/blob/c9a74b1/src/fp/Either.ts#L1)
+Defined in: [fp/Either.ts:1](https://github.com/HanZhaorz/rs-utils/blob/487e704/src/fp/Either.ts#L1)
 
 ## Properties
 
@@ -76,4 +76,4 @@ Name | Type |
 
 **Returns:** T *extends* *null* ? *Left*<T\> : *Right*<T\>
 
-Defined in: [fp/Either.ts:4](https://github.com/HanZhaorz/rs-utils/blob/c9a74b1/src/fp/Either.ts#L4)
+Defined in: [fp/Either.ts:4](https://github.com/HanZhaorz/rs-utils/blob/487e704/src/fp/Either.ts#L4)

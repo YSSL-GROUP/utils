@@ -1,6 +1,13 @@
 {
   "entryPoints": [
-    "src"
+    "src/index.ts",
+    "src/transform/index.ts",
+    "src/validate/index.ts",
+    "src/style/index.ts",
+    "src/storage/index.ts",
+    "src/helper/index.ts",
+    "src/fp/index.ts",
+    "src/action/index.ts"
   ],
   "out": "docs",
   "readme": "none"

@@ -14,16 +14,16 @@
 
 ### Regular
 
-Re-exports: [Regular](validate_regular.md#regular)
+Re-exports: [Regular](index.md#regular)
 
 ___
 
 ### getRegular
 
-Re-exports: [getRegular](validate_getregular.md#getregular)
+Re-exports: [getRegular](index.md#getregular)
 
 ___
 
 ### isIE
 
-Re-exports: [isIE](validate_isie.md#isie)
+Re-exports: [isIE](index.md#isie)

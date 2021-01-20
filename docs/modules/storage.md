@@ -15,22 +15,22 @@
 
 ### getLocalStorage
 
-Re-exports: [getLocalStorage](storage_getlocalstorage.md#getlocalstorage)
+Re-exports: [getLocalStorage](index.md#getlocalstorage)
 
 ___
 
 ### getSessionStorage
 
-Re-exports: [getSessionStorage](storage_getsessionstorage.md#getsessionstorage)
+Re-exports: [getSessionStorage](index.md#getsessionstorage)
 
 ___
 
 ### setLocalStorage
 
-Re-exports: [setLocalStorage](storage_setlocalstorage.md#setlocalstorage)
+Re-exports: [setLocalStorage](index.md#setlocalstorage)
 
 ___
 
 ### setSessionStorage
 
-Re-exports: [setSessionStorage](storage_setsessionstorage.md#setsessionstorage)
+Re-exports: [setSessionStorage](index.md#setsessionstorage)

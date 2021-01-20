@@ -17,34 +17,34 @@
 
 ### extNo
 
-Re-exports: [extNo](transform_extno.md#extno)
+Re-exports: [extNo](index.md#extno)
 
 ___
 
 ### maskPhone
 
-Re-exports: [maskPhone](transform_maskphone.md#maskphone)
+Re-exports: [maskPhone](index.md#maskphone)
 
 ___
 
 ### pct
 
-Re-exports: [pct](transform_pct.md#pct)
+Re-exports: [pct](index.md#pct)
 
 ___
 
 ### toBase64
 
-Re-exports: [toBase64](transform_tobase64.md#tobase64)
+Re-exports: [toBase64](index.md#tobase64)
 
 ___
 
 ### toFormData
 
-Re-exports: [toFormData](transform_toformdata.md#toformdata)
+Re-exports: [toFormData](index.md#toformdata)
 
 ___
 
 ### toValue
 
-Re-exports: [toValue](transform_tovalue.md#tovalue)
+Re-exports: [toValue](index.md#tovalue)

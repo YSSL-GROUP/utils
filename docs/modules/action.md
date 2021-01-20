@@ -14,16 +14,16 @@
 
 ### downloadViaBlob
 
-Re-exports: [downloadViaBlob](action_downloadviablob.md#downloadviablob)
+Re-exports: [downloadViaBlob](index.md#downloadviablob)
 
 ___
 
 ### downloadViaUrl
 
-Re-exports: [downloadViaUrl](action_downloadviaurl.md#downloadviaurl)
+Re-exports: [downloadViaUrl](index.md#downloadviaurl)
 
 ___
 
 ### selectFiles
 
-Re-exports: [selectFiles](action_selectfiles.md#selectfiles)
+Re-exports: [selectFiles](index.md#selectfiles)

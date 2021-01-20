@@ -13,10 +13,10 @@
 
 ### ellipsis
 
-Re-exports: [ellipsis](style_ellipsis.md#ellipsis)
+Re-exports: [ellipsis](index.md#ellipsis)
 
 ___
 
 ### ellipsisStr
 
-Re-exports: [ellipsisStr](style_ellipsisstr.md#ellipsisstr)
+Re-exports: [ellipsisStr](index.md#ellipsisstr)

@@ -12,4 +12,4 @@
 
 ### Either
 
-Re-exports: [Either](../classes/fp/either.either.md)
+Re-exports: [Either](../classes/index.either.md)

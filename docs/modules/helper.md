@@ -16,28 +16,28 @@
 
 ### isBoolean
 
-Re-exports: [isBoolean](helper_guard.md#isboolean)
+Re-exports: [isBoolean](index.md#isboolean)
 
 ___
 
 ### isNullable
 
-Re-exports: [isNullable](helper_guard.md#isnullable)
+Re-exports: [isNullable](index.md#isnullable)
 
 ___
 
 ### isNumber
 
-Re-exports: [isNumber](helper_guard.md#isnumber)
+Re-exports: [isNumber](index.md#isnumber)
 
 ___
 
 ### isObject
 
-Re-exports: [isObject](helper_guard.md#isobject)
+Re-exports: [isObject](index.md#isobject)
 
 ___
 
 ### isString
 
-Re-exports: [isString](helper_guard.md#isstring)
+Re-exports: [isString](index.md#isstring)
