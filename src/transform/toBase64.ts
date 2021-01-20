@@ -3,7 +3,7 @@
  * @param data - File | Blob 对象
  * @returns base64字符串
  */
-export function convertToBase64(data?: File | Blob) {
+export function toBase64(data?: File | Blob) {
   return new Promise<FileReader["result"]>((resolve, reject) => {
     if (!data) {
       reject(new Error("请传入File/Blob文件"));
