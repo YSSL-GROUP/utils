@@ -1,4 +1,4 @@
 export { convertToFormData } from "./convertToFormData";
-export { extendSerialNumber } from "./extendSerialNumber";
+export { extendNo } from "./extendNo";
 export { pct } from "./pct";
 export { encryptPhone } from "./encryptPhone";
