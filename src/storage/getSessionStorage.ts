@@ -2,7 +2,7 @@ import { ValueType } from "../helper/type";
 import { toValue } from "../transform/toValue";
 /**
  * 获取SessionStorage key = `key` 的值
- * @param type - "string" | "number" | "object" | "array"
+ * @param type - "string" | "number" | "object" | "array" | "boolean"
  * @param key - key
  * @returns 将`SessionStorage`的值转换指定`type`的值
  */
