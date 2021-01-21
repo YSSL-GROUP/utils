@@ -11,7 +11,7 @@
  * pct('--', null, 20, 3) // -> --
  * ```
  */
-export function pct<D>(
+export function toPct<D>(
   defaultValue: D,
   dividend: number | string | null,
   divisor: number | string | null,
