@@ -1,7 +1,5 @@
 const _Regular = {
-  /**
-   * @remarks 整数
-   */
+  // 整数
   int: /^(\-|\+)?([0-9]+|Infinity)$/,
   //正整数
   positiveInt: /^[1-9]\d*|0$/,
@@ -31,6 +29,9 @@ export type RegularType = keyof typeof _Regular;
 
 /**
  * 所有正则表达式
+ *
+ * @remarks adfafe
+ * @param y - The second input number
  */
 export const Regular = new Proxy(_Regular, {
   get(target, key: RegularType) {
