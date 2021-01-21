@@ -16,7 +16,6 @@ rs-utils
 - [ellipsisStr](README.md#ellipsisstr)
 - [extNo](README.md#extno)
 - [getLocalStorage](README.md#getlocalstorage)
-- [getRegular](README.md#getregular)
 - [getSessionStorage](README.md#getsessionstorage)
 - [isBoolean](README.md#isboolean)
 - [isIE](README.md#isie)
@@ -25,12 +24,12 @@ rs-utils
 - [isObject](README.md#isobject)
 - [isString](README.md#isstring)
 - [maskPhone](README.md#maskphone)
-- [pct](README.md#pct)
 - [selectFiles](README.md#selectfiles)
 - [setLocalStorage](README.md#setlocalstorage)
 - [setSessionStorage](README.md#setsessionstorage)
 - [toBase64](README.md#tobase64)
 - [toFormData](README.md#toformdata)
+- [toPct](README.md#topct)
 - [toValue](README.md#tovalue)
 
 ## Variables
@@ -60,7 +59,7 @@ Name | Type | Value |
 `positiveIntOrDecimal` | *RegExp* | *RegExp* |
 `url` | *RegExp* | *RegExp* |
 
-Defined in: [validate/Regular.ts:33](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/validate/Regular.ts#L33)
+Defined in: [validate/Regular.ts:35](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/validate/Regular.ts#L35)
 
 ## Functions
 
@@ -79,7 +78,7 @@ Name | Type | Description |
 
 **Returns:** *undefined* \| Error
 
-Defined in: [action/downloadViaBlob.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/action/downloadViaBlob.ts#L7)
+Defined in: [action/downloadViaBlob.ts:7](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/action/downloadViaBlob.ts#L7)
 
 ___
 
@@ -98,7 +97,7 @@ Name | Type | Description |
 
 **Returns:** *void*
 
-Defined in: [action/downloadViaUrl.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/action/downloadViaUrl.ts#L7)
+Defined in: [action/downloadViaUrl.ts:7](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/action/downloadViaUrl.ts#L7)
 
 ___
 
@@ -124,7 +123,7 @@ Name | Type | Description |
 
 el
 
-Defined in: [style/ellipsis.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/style/ellipsis.ts#L7)
+Defined in: [style/ellipsis.ts:7](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/style/ellipsis.ts#L7)
 
 ___
 
@@ -158,7 +157,7 @@ Name | Type | Description |
 
 截取并带省略号的字符串
 
-Defined in: [style/ellipsisStr.ts:13](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/style/ellipsisStr.ts#L13)
+Defined in: [style/ellipsisStr.ts:13](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/style/ellipsisStr.ts#L13)
 
 ___
 
@@ -193,7 +192,7 @@ Name | Type | Description |
 
 添加序号后的数据列表 `key=$No`
 
-Defined in: [transform/extNo.ts:15](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/transform/extNo.ts#L15)
+Defined in: [transform/extNo.ts:15](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/transform/extNo.ts#L15)
 
 ___
 
@@ -214,27 +213,7 @@ Name | Type | Description |
 
 将`LocalStorage`的值转换指定`type`的值
 
-Defined in: [storage/getLocalStorage.ts:9](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/storage/getLocalStorage.ts#L9)
-
-___
-
-### getRegular
-
-▸ **getRegular**(`type`: RegularType): *RegExp*
-
-获取指定正则表达式
-
-#### Parameters:
-
-Name | Type | Description |
------- | ------ | ------ |
-`type` | RegularType | 正则类型   |
-
-**Returns:** *RegExp*
-
-指定正则表达式
-
-Defined in: [validate/getRegular.ts:8](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/validate/getRegular.ts#L8)
+Defined in: [storage/getLocalStorage.ts:9](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/storage/getLocalStorage.ts#L9)
 
 ___
 
@@ -255,7 +234,7 @@ Name | Type | Description |
 
 将`SessionStorage`的值转换指定`type`的值
 
-Defined in: [storage/getSessionStorage.ts:9](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/storage/getSessionStorage.ts#L9)
+Defined in: [storage/getSessionStorage.ts:9](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/storage/getSessionStorage.ts#L9)
 
 ___
 
@@ -271,7 +250,7 @@ Name | Type |
 
 **Returns:** value is boolean
 
-Defined in: [helper/guard.ts:11](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/helper/guard.ts#L11)
+Defined in: [helper/guard.ts:11](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/helper/guard.ts#L11)
 
 ___
 
@@ -285,7 +264,7 @@ ___
 
 (number - ie版本号) (false - 不是ie)
 
-Defined in: [validate/isIE.ts:5](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/validate/isIE.ts#L5)
+Defined in: [validate/isIE.ts:5](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/validate/isIE.ts#L5)
 
 ___
 
@@ -301,7 +280,7 @@ Name | Type |
 
 **Returns:** value is null
 
-Defined in: [helper/guard.ts:3](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/helper/guard.ts#L3)
+Defined in: [helper/guard.ts:3](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/helper/guard.ts#L3)
 
 ___
 
@@ -317,7 +296,7 @@ Name | Type |
 
 **Returns:** value is number
 
-Defined in: [helper/guard.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/helper/guard.ts#L7)
+Defined in: [helper/guard.ts:7](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/helper/guard.ts#L7)
 
 ___
 
@@ -333,7 +312,7 @@ Name | Type |
 
 **Returns:** value is AnyObject
 
-Defined in: [helper/guard.ts:19](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/helper/guard.ts#L19)
+Defined in: [helper/guard.ts:19](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/helper/guard.ts#L19)
 
 ___
 
@@ -349,7 +328,7 @@ Name | Type |
 
 **Returns:** value is string
 
-Defined in: [helper/guard.ts:15](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/helper/guard.ts#L15)
+Defined in: [helper/guard.ts:15](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/helper/guard.ts#L15)
 
 ___
 
@@ -382,13 +361,111 @@ Name | Type | Description |
 
 手机号脱敏后的值
 
-Defined in: [transform/maskPhone.ts:12](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/transform/maskPhone.ts#L12)
+Defined in: [transform/maskPhone.ts:12](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/transform/maskPhone.ts#L12)
 
 ___
 
-### pct
+### selectFiles
 
-▸ **pct**<D\>(`defaultValue`: D, `dividend`: *number* \| *string* \| *null*, `divisor`: *number* \| *string* \| *null*, `several?`: *number*): *string* \| D
+▸ **selectFiles**(`option?`: *Partial*<HTMLInputElement\>): *Promise*<*null* \| FileList\>
+
+调用浏览器文件选择
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`option?` | *Partial*<HTMLInputElement\> | input标签属性配置项   |
+
+**Returns:** *Promise*<*null* \| FileList\>
+
+选择的文件集合
+
+Defined in: [action/selectFiles.ts:6](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/action/selectFiles.ts#L6)
+
+___
+
+### setLocalStorage
+
+▸ **setLocalStorage**(`key`: *string*, `value`: *any*): *string*
+
+设置LocalStorage key = `key` 的值（值会通过JSON.stringify序列化）
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`key` | *string* | key   |
+`value` | *any* | - |
+
+**Returns:** *string*
+
+Defined in: [storage/setLocalStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/storage/setLocalStorage.ts#L7)
+
+___
+
+### setSessionStorage
+
+▸ **setSessionStorage**(`key`: *string*, `value`: *any*): *string*
+
+设置SessionStorage key = `key` 的值（值会通过JSON.stringify序列化）
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`key` | *string* | key   |
+`value` | *any* | - |
+
+**Returns:** *string*
+
+Defined in: [storage/setSessionStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/storage/setSessionStorage.ts#L7)
+
+___
+
+### toBase64
+
+▸ **toBase64**(`data`: File \| Blob \| *null*): *Promise*<*null* \| *string* \| ArrayBuffer\>
+
+文件或二进制数据转换为base64格式
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`data` | File \| Blob \| *null* | File | Blob 对象   |
+
+**Returns:** *Promise*<*null* \| *string* \| ArrayBuffer\>
+
+base64字符串
+
+Defined in: [transform/toBase64.ts:7](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/transform/toBase64.ts#L7)
+
+___
+
+### toFormData
+
+▸ **toFormData**(`obj?`: { [p in string]: any}): FormData
+
+将普通对象转换成FormData对象
+
+#### Parameters:
+
+Name | Type | Default value | Description |
+------ | ------ | ------ | ------ |
+`obj` | { [p in string]: any} | ... | 对象   |
+
+**Returns:** FormData
+
+FormData对象
+
+Defined in: [transform/toFormData.ts:6](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/transform/toFormData.ts#L6)
+
+___
+
+### toPct
+
+▸ **toPct**<D\>(`defaultValue`: D, `dividend`: *number* \| *string* \| *null*, `divisor`: *number* \| *string* \| *null*, `several?`: *number*): *string* \| D
 
 计算百分比 (pct是percentage缩写)
 
@@ -417,105 +494,7 @@ Name | Type | Default value | Description |
 
 百分比
 
-Defined in: [transform/pct.ts:14](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/transform/pct.ts#L14)
-
-___
-
-### selectFiles
-
-▸ **selectFiles**(`option?`: *Partial*<HTMLInputElement\>): *Promise*<*null* \| FileList\>
-
-调用浏览器文件选择
-
-#### Parameters:
-
-Name | Type | Description |
------- | ------ | ------ |
-`option?` | *Partial*<HTMLInputElement\> | input标签属性配置项   |
-
-**Returns:** *Promise*<*null* \| FileList\>
-
-选择的文件集合
-
-Defined in: [action/selectFiles.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/action/selectFiles.ts#L6)
-
-___
-
-### setLocalStorage
-
-▸ **setLocalStorage**(`key`: *string*, `value`: *any*): *string*
-
-设置LocalStorage key = `key` 的值（值会通过JSON.stringify序列化）
-
-#### Parameters:
-
-Name | Type | Description |
------- | ------ | ------ |
-`key` | *string* | key   |
-`value` | *any* | - |
-
-**Returns:** *string*
-
-Defined in: [storage/setLocalStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/storage/setLocalStorage.ts#L7)
-
-___
-
-### setSessionStorage
-
-▸ **setSessionStorage**(`key`: *string*, `value`: *any*): *string*
-
-设置SessionStorage key = `key` 的值（值会通过JSON.stringify序列化）
-
-#### Parameters:
-
-Name | Type | Description |
------- | ------ | ------ |
-`key` | *string* | key   |
-`value` | *any* | - |
-
-**Returns:** *string*
-
-Defined in: [storage/setSessionStorage.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/storage/setSessionStorage.ts#L7)
-
-___
-
-### toBase64
-
-▸ **toBase64**(`data`: File \| Blob \| *null*): *Promise*<*null* \| *string* \| ArrayBuffer\>
-
-文件或二进制数据转换为base64格式
-
-#### Parameters:
-
-Name | Type | Description |
------- | ------ | ------ |
-`data` | File \| Blob \| *null* | File | Blob 对象   |
-
-**Returns:** *Promise*<*null* \| *string* \| ArrayBuffer\>
-
-base64字符串
-
-Defined in: [transform/toBase64.ts:7](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/transform/toBase64.ts#L7)
-
-___
-
-### toFormData
-
-▸ **toFormData**(`obj?`: { [p in string]: any}): FormData
-
-将普通对象转换成FormData对象
-
-#### Parameters:
-
-Name | Type | Default value | Description |
------- | ------ | ------ | ------ |
-`obj` | { [p in string]: any} | ... | 对象   |
-
-**Returns:** FormData
-
-FormData对象
-
-Defined in: [transform/toFormData.ts:6](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/transform/toFormData.ts#L6)
+Defined in: [transform/toPct.ts:14](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/transform/toPct.ts#L14)
 
 ___
 
@@ -540,4 +519,4 @@ Name | Type | Description |
 
 **Returns:** *string* \| *number* \| AnyObject
 
-Defined in: [transform/toValue.ts:10](https://github.com/HanZhaorz/rs-utils/blob/1f0f077/src/transform/toValue.ts#L10)
+Defined in: [transform/toValue.ts:10](https://github.com/HanZhaorz/rs-utils/blob/007cd75/src/transform/toValue.ts#L10)
