@@ -1,5 +1,7 @@
 const _Regular = {
-  // 整数
+  /**
+   * 整数
+   */
   int: /^(\-|\+)?([0-9]+|Infinity)$/,
   //正整数
   positiveInt: /^[1-9]\d*|0$/,
