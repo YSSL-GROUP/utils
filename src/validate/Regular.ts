@@ -29,9 +29,6 @@ export type RegularType = keyof typeof _Regular;
 
 /**
  * 所有正则表达式
- *
- * @remarks adfafe
- * @param y - The second input number
  */
 export const Regular = new Proxy(_Regular, {
   get(target, key: RegularType) {
