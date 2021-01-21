@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/HanZhaorz/rs-libs"
+    "url": "git://github.com/HanZhaorz/rs-utils"
   },
   "main": "lib/index.mjs",
   "types": "lib/type.d.ts",
@@ -21,8 +21,7 @@
   "scripts": {
     "build:docs": "npx typedoc --plugin typedoc-plugin-markdown",
     "build:js": "rollup -c",
-    "build": "yarn build:js && yarn build:docs",
-    "lint": "eslint -f unix \"src/**/*.{ts,tsx}\""
+    "build": "yarn build:js && yarn build:docs"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
