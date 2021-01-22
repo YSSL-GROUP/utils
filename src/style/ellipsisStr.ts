@@ -1,8 +1,8 @@
 /**
  * 根据`limit`长度截取`str`加上省略号
- * @param defaultValue - `str` === null时默认显示的值
  * @param limit - 限制文字长度
  * @param str - 文本
+ * @param defaultValue - `str` === null时默认显示的值
  * @returns 截取并带省略号的字符串
  * @example
  * ```ts

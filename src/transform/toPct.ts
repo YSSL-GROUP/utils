@@ -1,9 +1,9 @@
 /**
  * 计算百分比 (pct是percentage缩写)
- * @param defaultValue - dividend === null || divisor === null 显示的默认值
  * @param dividend - 被除数
  * @param divisor - 除数
  * @param several - 保留小数点后几位
+ * @param defaultValue - dividend === null || divisor === null 显示的默认值
  * @returns 百分比
  * @example
  * ```ts

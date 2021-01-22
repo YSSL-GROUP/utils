@@ -1,7 +1,7 @@
 /**
  * 手机号脱敏
- * @param defaultValue - phone === null时默认显示的值
  * @param phone - 手机号
+ * @param defaultValue - phone === null时默认显示的值
  * @returns 手机号脱敏后的值
  * @example
  * ```ts
