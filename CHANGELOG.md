@@ -15,9 +15,3 @@ All notable changes to this project will be documented in this file. See [standa
 * 注释错误 ([d5670d1](https://github.com/HanZhaorz/rs-utils/commit/d5670d1a2a67e7cf9f5f4e8583f2fa98427a2539))
 * 类型判断 ([6290d9d](https://github.com/HanZhaorz/rs-utils/commit/6290d9d3d3df0a2949d5c64b75d9921c45e59b93))
 * 结构调整 ([2d0aefa](https://github.com/HanZhaorz/rs-utils/commit/2d0aefae3abaf33948ff0f1ea0e405e25e938e85))
-
-## 0.0.0 / 2018-10-6
-
-- 新增xxx功能
-- 删除xxx功能
-- 更改xxx功能
