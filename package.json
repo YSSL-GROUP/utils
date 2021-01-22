@@ -1,7 +1,8 @@
 {
-  "name": "rs-utils",
+  "name": "@YSSL/utils",
   "description": "utils",
   "keywords": [
+    "YSSL",
     "utils"
   ],
   "sideEffects": false,
@@ -9,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/HanZhaorz/rs-utils"
+    "url": "git://github.com/YSSL-GROUP/utils"
   },
   "main": "lib/index.mjs",
   "types": "lib/type.d.ts",

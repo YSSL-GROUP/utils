@@ -1,6 +1,6 @@
-rs-utils
+@YSSL/utils
 
-# rs-utils
+# @YSSL/utils
 
 ## Table of contents
 
