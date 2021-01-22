@@ -22,7 +22,7 @@
     "build:docs": "npx typedoc --plugin typedoc-plugin-markdown",
     "build:js": "rollup -c",
     "build": "yarn build:js && yarn build:docs",
-    "commit" : "npx git cz"
+    "commit": "npx git cz"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -40,6 +40,8 @@
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-tsdoc": "^0.2.10",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "rollup": "^2.36.1",
     "rollup-plugin-dts": "^2.0.1",
@@ -55,5 +57,13 @@
     "commitizen": {
       "path": "node_modules/cz-customizable"
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts, js}": "eslint --fix"
   }
 }
