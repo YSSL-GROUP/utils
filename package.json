@@ -16,7 +16,8 @@
   "module": "lib/index.mjs",
   "unpkg": "lib/rs-utils.umd.min.js",
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "scripts": {
     "build:docs": "typedoc --plugin typedoc-plugin-markdown",
