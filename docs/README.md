@@ -1,6 +1,6 @@
-@YSSL/utils
+@ysslg/utils
 
-# @YSSL/utils
+# @ysslg/utils
 
 ## Table of contents
 

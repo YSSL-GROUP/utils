@@ -1,10 +1,16 @@
-# `@YSSL/utils`
+# `@ysslg/utils`
 
 服务与公司业务，将经常使用的函数抽离，避免频繁**copy**
 
 [目前完成度](TODO.md)
 
 [文档](docs/README.md)
+
+## 安装
+
+```cmd
+yarn add @ysslg/utils
+```
 
 ## 设计理念
 
