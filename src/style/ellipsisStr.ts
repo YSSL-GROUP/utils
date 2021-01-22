@@ -6,11 +6,11 @@
  * @returns 截取并带省略号的字符串
  * @example
  * ```ts
- * ellipsisStr('--', 4, "哈哈哈哈哈哈哈") // -> 哈哈哈哈...
- * ellipsisStr('--', 4, null) // -> "--"
+ * ellipsisStr(4, "哈哈哈哈哈哈哈") // -> 哈哈哈哈...
+ * ellipsisStr(4, null) // -> "--"
  * ```
  */
-export function ellipsisStr<D>(defaultValue: D, limit: number, str: string | null) {
+export function ellipsisStr(limit: number, str: string | null, defaultValue: "--") {
   if (!str) return defaultValue;
   return str.length > limit ? str.slice(0, limit) + "..." : str;
 }

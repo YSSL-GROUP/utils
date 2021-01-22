@@ -7,15 +7,15 @@
  * @returns 百分比
  * @example
  * ```ts
- * pct('--', 200, 20, 3) // -> 10.000%
- * pct('--', null, 20, 3) // -> --
+ * pct(200, 20, 3) // -> 10.000%
+ * pct(null, 20, 3) // -> --
  * ```
  */
-export function toPct<D>(
-  defaultValue: D,
+export function toPct(
   dividend: number | string | null,
   divisor: number | string | null,
   several = 2,
+  defaultValue: "--",
 ) {
   if (dividend === null || divisor === null) return defaultValue;
   return ((Number(dividend) / Number(divisor)) * 100).toFixed(several) + "%";

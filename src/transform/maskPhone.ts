@@ -5,11 +5,11 @@
  * @returns 手机号脱敏后的值
  * @example
  * ```ts
- * maskPhone("--", 15536435235) // -> 155****5235
- * maskPhone("--", null) // -> --
+ * maskPhone(15536435235) // -> 155****5235
+ * maskPhone(null) // -> --
  * ```
  */
-export function maskPhone<D>(defaultValue: D, phone: string | number | null) {
+export function maskPhone(phone: string | number | null, defaultValue: "--") {
   if (phone === null) return defaultValue;
   return phone.toString().replace(/(\d{3})\d*(\d{4})/, "$1****$2");
 }
