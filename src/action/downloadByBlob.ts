@@ -4,7 +4,7 @@
  * @param response - 如果传入 1.请求响应体 - 获取 response.headers['content-disposition'] 的值并计算文件名 2. 字符串 - 直接作为文件名
  * @returns
  */
-export function downloadViaBlob(blob: Blob, response: Response | string) {
+export function downloadByBlob(blob: Blob, response: Response | string) {
   const blobInstance = new Blob([blob]);
   const filename = (function () {
     if (typeof response === "string") return response;
