@@ -25,7 +25,8 @@
     "build:js": "rollup -c",
     "build": "yarn build:js && yarn build:docs",
     "commit": "git cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "test": "mocha"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
