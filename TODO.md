@@ -25,6 +25,7 @@
 - [X] extNo - 为列表扩展序号字段
 - [X] toStr - 将任意类型转换为`string`
 - [X] toValue - 将任意值转换为指定`type`值
+- [X] toQuery - 请求参数对象转换为字符串拼接
 
 ### storage
 
