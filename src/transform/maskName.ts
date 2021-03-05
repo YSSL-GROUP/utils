@@ -6,8 +6,8 @@ import { isNullable } from "../helper/guard";
  * @returns 姓名脱敏后的值
  * @example
  * ```ts
- * maskPhone('--' ,'王中王') // -> 王**
- * maskPhone('--') // -> --
+ * maskName('--' ,'王中王') // -> 王**
+ * maskName('--') // -> --
  * ```
  */
 export function maskName(defaultValue: string, name?: string) {
