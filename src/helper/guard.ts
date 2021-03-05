@@ -1,6 +1,6 @@
 import { AnyObject } from "./type";
 
-export function isNullable(value: any): value is null {
+export function isNullable(value: any): value is null | undefined {
   return value === null || value === undefined;
 }
 
